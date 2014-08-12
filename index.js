@@ -1,4 +1,4 @@
-var utils     = require( 'utils' )
+var utils     = require( './lib/utils' )
   , env       = utils.bootstrapEnv()
   , moduleLdr = env.moduleLoader
   , cors      = require( 'cors' )
