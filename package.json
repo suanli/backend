@@ -69,7 +69,7 @@
     "test": "grunt test --verbose"
   },
   "bundledDependencies": [
-    "clever-auth",
-    "clever-odm"
+    "clever-orm",
+    "clever-timezone-backend"
   ]
 }

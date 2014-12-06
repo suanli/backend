@@ -1,0 +1,36 @@
+{
+  "name": "clever-timezone-backend",
+  "version": "0.0.3",
+  "dependencies": {},
+  "author": {
+    "name": "Clevertech",
+    "email": "info@clevertech.biz",
+    "web": "http://www.clevertech.biz"
+  },
+  "collaborators": [
+    "Richard Gustin <richard@clevertech.biz>",
+    "Daniel Young <daniel@clevertech.biz>"
+  ],
+  "description": "Timezones for CleverStack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CleverStack/clever-timezone-backend.git"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/CleverStack/clever-timezone-backend/issues"
+  },
+  "keywords": [
+    "cleverstack",
+    "clevertech",
+    "cleverstack-module",
+    "cleverstack-backend"
+  ],
+  "main": "module.js",
+  "dependencies": {
+    "q": "*",
+    "sequelize":    "^1.7.x"
+  },
+  "devDependencies": {
+  }
+}
