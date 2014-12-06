@@ -1,0 +1,24 @@
+{
+  "clever-background-tasks": {
+    "enabled": true,
+    "interval": 2500,
+    "tasks": [],
+    "driver": "memcache",
+    "memcache": {
+      "host": "localhost",
+      "port": "11211"
+    }
+  },
+  "clever-orm": {
+    "db": {
+      "options": {
+        "dialect": "mysql",
+        "host": "127.0.0.1",
+        "port": "3306"
+      },
+      "username": "dushanghan",
+      "password": "",
+      "database": "dushanghan"
+    }
+  }
+}
