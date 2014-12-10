@@ -1,0 +1,22 @@
+{
+  "name": "dushanghan",
+  "version": "0.0.1",
+  "dependencies": {},
+  "author": {
+    "name": "Ryan Zhao",
+    "email": "suanli@gmail.com",
+    "web": "http://du.shanghan.me"
+  },
+  "description": "DuShangHan backend",
+  "keywords": [
+    "cleverstack",
+    "cleverstack-module",
+    "cleverstack-backend",
+    "dushanghan"
+  ],
+  "main": "module.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
