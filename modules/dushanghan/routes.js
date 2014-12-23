@@ -1,7 +1,5 @@
-module.exports = function( app, ContentController, ContentModel ) {
+module.exports = function( app, ContentController, TextController ) {
     // Define routes here
-    app.all('/dsh/content/:action/:id?', ContentController.attach());
-    app.all('/dsh/content/?:action?', ContentController.attach());
-  app.all('/dsh/text/:action/:id?', TextController.attach());
-  app.all('/dsh/text/?:action?', TextController.attach());
+    app.all('/dsh/content', ContentController.attach());
+    app.all('/dsh/text', TextController.attach());//dsh/text?vol=1&chapter=1
 }

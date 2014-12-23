@@ -11,10 +11,10 @@ module.exports = function (Model) {
         primaryKey: true,
         autoIncrement: true
       },
-      volume: {
+      vol: {
         type: Number
       },
-      capter: {
+      chapter: {
         type: Number
       },
       index: {
@@ -24,47 +24,11 @@ module.exports = function (Model) {
         type: String,
         allowNull: false
       },
-      recipe1: {
+      recipe: {
         type: String,
         allowNull: true
       },
-      recipe2: {
-        type: String,
-        allowNull: true
-      },
-      recipe3: {
-        type: String,
-        allowNull: true
-      },
-      recipe4: {
-        type: String,
-        allowNull: true
-      },
-      comment1Position: {
-        type: Number
-      },
-      comment1: {
-        type: String,
-        allowNull: true
-      },
-      comment2Position: {
-        type: Number
-      },
-      comment2: {
-        type: String,
-        allowNull: true
-      },
-      comment3Position: {
-        type: Number
-      },
-      comment3: {
-        type: String,
-        allowNull: true
-      },
-      comment4Position: {
-        type: Number
-      },
-      comment4: {
+      text_comment: {
         type: String,
         allowNull: true
       }

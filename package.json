@@ -70,6 +70,6 @@
   },
   "bundledDependencies": [
     "clever-orm",
-    "clever-timezone-backend"
+    "dushanghan"
   ]
 }
