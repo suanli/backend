@@ -11,10 +11,10 @@ module.exports = function (Model) {
         primaryKey: true,
         autoIncrement: true
       },
-      volumeIndex: {
+      vol: {
         type: Number
       },
-      capterIndex: {
+      chapter: {
         type: Number
       },
       title: {
