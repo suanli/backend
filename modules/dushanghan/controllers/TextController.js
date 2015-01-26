@@ -2,6 +2,7 @@
  * @doc module
  * @name dushanghanModule.controllers:TextController
  */
+var Promise     = require( 'bluebird' )
 module.exports = function(Controller, TextService) {
     return Controller.extend(
     {
@@ -29,10 +30,24 @@ module.exports = function(Controller, TextService) {
               })
               return;
             }
+            var transform = function(object)
+            {
+              return new Promise( function( resolve, reject ) {
+                if(!object.statusCode) {
+                  for (var i in object) {
+                    object[i].text_comment = JSON.parse(object[i].text_comment);
+                  }
+                }
+                resolve(object);
+              });
+            }
+
+            options.order = ['index'];
 
             this.Class
               .service
               .findAll( options )
+              .then( transform )
               .then( this.proxy( 'handleServiceMessage' ) )
               .catch( this.proxy( 'handleServiceMessage' ) );
           } else {

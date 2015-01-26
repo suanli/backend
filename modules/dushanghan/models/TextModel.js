@@ -21,7 +21,7 @@ module.exports = function (Model) {
         type: Number
       },
       text: {
-        type: String,
+        type: Model.Types.TEXT,
         allowNull: false
       },
       recipe: {
@@ -29,7 +29,7 @@ module.exports = function (Model) {
         allowNull: true
       },
       text_comment: {
-        type: String,
+        type: Model.Types.TEXT,
         allowNull: true
       }
     });
