@@ -1,17 +1,17 @@
 var path        = require( 'path' )
   , ormUtils    = require( path.resolve( path.join( __dirname, '..', 'lib', 'utils.js' ) ) )
   , async       = require( 'async' )
-  , utils       = require( 'utils' )
+  , utils       = require( '../../../lib/utils' )
   , env         = utils.bootstrapEnv()
   , moduleLdr   = env.moduleLoader
   , _           = require( 'underscore' )
-  , config      = require( 'config' )
+  , config      = require( '../../../lib/config' )
   , inflect     = require( 'i' )();
 
 // Seed once our modules have loaded
 moduleLdr.on( 'modulesLoaded', function() {
-    var seedData = require( 'seedData' )
-      , models = require( 'models' );
+    var seedData = require( '../../../lib/seedData' )
+      , models = require( '../../../lib/models' );
 
     var assocMap = {};
     Object.keys( seedData ).forEach(function( modelName ) {
