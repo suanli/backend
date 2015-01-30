@@ -36,6 +36,7 @@ module.exports = function(Controller, TextService) {
                 if(!object.statusCode) {
                   for (var i in object) {
                     object[i].text_comment = JSON.parse(object[i].text_comment);
+                    object[i].recipe = JSON.parse(object[i].recipe);
                   }
                 }
                 resolve(object);
