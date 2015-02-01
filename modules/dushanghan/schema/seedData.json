@@ -1,229 +1,84 @@
 {
  "ContentModel": [
   {
-   "vol": 1,
-   "chapter": 0,
-   "title": "傷寒雜病論第一"
+   "index": 1,
+   "title": "傷寒雜病論第一",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"平脈法第一\"\n  }\n]"
   },
   {
-   "vol": 1,
-   "chapter": 1,
-   "title": "平脈法第一"
+   "index": 2,
+   "title": "傷寒雜病論第二",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"平脈法第二\"\n  }\n]"
   },
   {
-   "vol": 2,
-   "chapter": 0,
-   "title": "傷寒雜病論第二"
+   "index": 3,
+   "title": "傷寒雜病論第三",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"六氣主客第三\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"傷寒例第四\"\n  },\n  {\n    \"index\": 3,\n    \"title\": \"雜病例第五\"\n  }\n]"
   },
   {
-   "vol": 2,
-   "chapter": 1,
-   "title": "平脈法第二"
+   "index": 4,
+   "title": "傷寒雜病論第四",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"溫病脈證並治第六\"\n  }\n]"
   },
   {
-   "vol": 3,
-   "chapter": 0,
-   "title": "傷寒雜病論第三"
+   "index": 5,
+   "title": "傷寒雜病論第五",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"傷暑病脈證並治第七\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"熱病脈證並治第八\"\n  },\n  {\n    \"index\": 3,\n    \"title\": \"濕病脈證並治第九\"\n  },\n  {\n    \"index\": 4,\n    \"title\": \"傷燥病脈證並治第十\"\n  },\n  {\n    \"index\": 5,\n    \"title\": \"傷風脈證並治第十一\"\n  },\n  {\n    \"index\": 6,\n    \"title\": \"寒病脈證並治第十二\"\n  }\n]"
   },
   {
-   "vol": 3,
-   "chapter": 1,
-   "title": "六氣主客第三"
+   "index": 6,
+   "title": "傷寒雜病論第六",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨太陽病脈證並治上\"\n  }\n]"
   },
   {
-   "vol": 3,
-   "chapter": 2,
-   "title": "傷寒例第四"
+   "index": 7,
+   "title": "傷寒雜病論第七",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨太陽病脈證並治中\"\n  }\n]"
   },
   {
-   "vol": 3,
-   "chapter": 3,
-   "title": "雜病例第五"
+   "index": 8,
+   "title": "傷寒雜病論第八",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨太陽病脈證並治下\"\n  }\n]"
   },
   {
-   "vol": 4,
-   "chapter": 0,
-   "title": "傷寒雜病論第四"
+   "index": 9,
+   "title": "傷寒雜病論第九",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨陽明病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 4,
-   "chapter": 1,
-   "title": "溫病脈證並治第六"
+   "index": 10,
+   "title": "傷寒雜病論第十",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨少陽病脈證並治\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"辨太陰病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 0,
-   "title": "傷寒雜病論第五"
+   "index": 11,
+   "title": "傷寒雜病論第十一",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨少陰病脈證並治\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"辨厥陰病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 1,
-   "title": "傷暑病脈證並治第七"
+   "index": 12,
+   "title": "傷寒雜病論第十二",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨霍亂吐利病脈證並治\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"辨痙陰陽易差後病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 2,
-   "title": "熱病脈證並治第八"
+   "index": 13,
+   "title": "傷寒雜病論第十三",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨百合狐惑陰陽毒病脈證並治\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"辨瘧病脈證並治\"\n  },\n  {\n    \"index\": 3,\n    \"title\": \"辨血痹虛勞病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 3,
-   "title": "濕病脈證並治第九"
+   "index": 14,
+   "title": "傷寒雜病論第十四",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨咳嗽水飲黃汗歷節病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 4,
-   "title": "傷燥病脈證並治第十"
+   "index": 15,
+   "title": "傷寒雜病論第十五",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨瘀血吐衄下血瘡癰病脈證並治\"\n  },\n  {\n    \"index\": 2,\n    \"title\": \"辨胸痹病脈證並治\"\n  }\n]"
   },
   {
-   "vol": 5,
-   "chapter": 5,
-   "title": "傷風脈證並治第十一"
-  },
-  {
-   "vol": 5,
-   "chapter": 6,
-   "title": "寒病脈證並治第十二"
-  },
-  {
-   "vol": 6,
-   "chapter": 0,
-   "title": "傷寒雜病論第六"
-  },
-  {
-   "vol": 6,
-   "chapter": 1,
-   "title": "辨太陽病脈證並治上"
-  },
-  {
-   "vol": 7,
-   "chapter": 0,
-   "title": "傷寒雜病論第七"
-  },
-  {
-   "vol": 7,
-   "chapter": 1,
-   "title": "辨太陽病脈證並治中"
-  },
-  {
-   "vol": 8,
-   "chapter": 0,
-   "title": "傷寒雜病論第八"
-  },
-  {
-   "vol": 8,
-   "chapter": 1,
-   "title": "辨太陽病脈證並治下"
-  },
-  {
-   "vol": 9,
-   "chapter": 0,
-   "title": "傷寒雜病論第九"
-  },
-  {
-   "vol": 9,
-   "chapter": 1,
-   "title": "辨陽明病脈證並治"
-  },
-  {
-   "vol": 10,
-   "chapter": 0,
-   "title": "傷寒雜病論第十"
-  },
-  {
-   "vol": 10,
-   "chapter": 1,
-   "title": "辨少陽病脈證並治"
-  },
-  {
-   "vol": 10,
-   "chapter": 2,
-   "title": "辨太陰病脈證並治"
-  },
-  {
-   "vol": 11,
-   "chapter": 0,
-   "title": "傷寒雜病論第十一"
-  },
-  {
-   "vol": 11,
-   "chapter": 1,
-   "title": "辨少陰病脈證並治"
-  },
-  {
-   "vol": 11,
-   "chapter": 2,
-   "title": "辨厥陰病脈證並治"
-  },
-  {
-   "vol": 12,
-   "chapter": 0,
-   "title": "傷寒雜病論第十二"
-  },
-  {
-   "vol": 12,
-   "chapter": 1,
-   "title": "辨霍亂吐利病脈證並治"
-  },
-  {
-   "vol": 12,
-   "chapter": 2,
-   "title": "辨痙陰陽易差後病脈證並治"
-  },
-  {
-   "vol": 13,
-   "chapter": 0,
-   "title": "傷寒雜病論第十三"
-  },
-  {
-   "vol": 13,
-   "chapter": 1,
-   "title": "辨百合狐惑陰陽毒病脈證並治"
-  },
-  {
-   "vol": 13,
-   "chapter": 2,
-   "title": "辨瘧病脈證並治"
-  },
-  {
-   "vol": 13,
-   "chapter": 3,
-   "title": "辨血痹虛勞病脈證並治"
-  },
-  {
-   "vol": 14,
-   "chapter": 0,
-   "title": "傷寒雜病論第十四"
-  },
-  {
-   "vol": 14,
-   "chapter": 1,
-   "title": "辨咳嗽水飲黃汗歷節病脈證並治"
-  },
-  {
-   "vol": 15,
-   "chapter": 0,
-   "title": "傷寒雜病論第十五"
-  },
-  {
-   "vol": 15,
-   "chapter": 1,
-   "title": "辨瘀血吐衄下血瘡癰病脈證並治"
-  },
-  {
-   "vol": 15,
-   "chapter": 2,
-   "title": "辨胸痹病脈證並治"
-  },
-  {
-   "vol": 16,
-   "chapter": 0,
-   "title": "傷寒雜病論第十六"
-  },
-  {
-   "vol": 16,
-   "chapter": 1,
-   "title": "辨婦人各病脈證並治"
+   "index": 16,
+   "title": "傷寒雜病論第十六",
+   "chapters": "[\n  {\n    \"index\": 1,\n    \"title\": \"辨婦人各病脈證並治\"\n  }\n]"
   }
  ],
  "TextModel": [

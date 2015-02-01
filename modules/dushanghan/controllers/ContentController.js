@@ -2,6 +2,7 @@
  * @doc module
  * @name dushanghanModule.controllers:ContentController
  */
+var Promise     = require( 'bluebird' )
 module.exports = function(Controller, ContentService) {
     return Controller.extend(
     {
@@ -22,11 +23,23 @@ module.exports = function(Controller, ContentService) {
             delete options.where._include;
           }
 
-          options.order = ['vol','chapter'];
+          var transform = function(object) {
+            return new Promise( function( resolve, reject ) {
+              if(!object.statusCode) {
+                for (var i in object) {
+                  object[i].chapters = JSON.parse(object[i].chapters);
+                }
+              }
+              resolve(object);
+            });
+          }
+
+          options.order = ['index'];
 
           this.Class
             .service
             .findAll( options )
+            .then( transform )
             .then( this.proxy( 'handleServiceMessage' ) )
             .catch( this.proxy( 'handleServiceMessage' ) );
         } else {

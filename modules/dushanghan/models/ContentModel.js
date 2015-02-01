@@ -11,14 +11,15 @@ module.exports = function (Model) {
         primaryKey: true,
         autoIncrement: true
       },
-      vol: {
-        type: Number
-      },
-      chapter: {
+      index: {
         type: Number
       },
       title: {
         type: String,
+        allowNull: false
+      },
+      chapters: {
+        type: Model.Types.TEXT,
         allowNull: false
       }
     });

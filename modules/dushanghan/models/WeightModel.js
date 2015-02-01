@@ -6,6 +6,11 @@ module.exports = function (Model) {
       timeStampable: false
     },
     {
+      id: {
+        type: Number,
+        primaryKey: true,
+        autoIncrement: true
+      },
       text: {
         type: Model.Types.TEXT,
         allowNull: true
